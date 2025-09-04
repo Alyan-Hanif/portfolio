@@ -6,7 +6,7 @@ export default function Services() {
     >
       {/* Top Row */}
       <div className=" mx-auto">
-        <h2 className="text-[4rem] sm:text-[6rem] font-extrabold leading-none tracking-tight">
+        <h2 className="text-5xl sm:text-[6rem] font-extrabold leading-none tracking-tight">
           WHAT I DO <span>/</span>
         </h2>
 

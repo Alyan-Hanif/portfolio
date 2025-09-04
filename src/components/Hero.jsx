@@ -30,20 +30,20 @@ export default function Hero() {
 
       <section className="min-h-screen flex bg-[#e7e8e2] px-4 sm:px-6 md:px-8 flex-col relative overflow-hidden">
         {/* Header */}
-        <div className="w-full h-[35%] flex items-center justify-center">
+        <div className="w-full h-[60%] flex items-end justify-center pt-20 ">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.5 }}
-            className="font-extrabold tracking-tighter text-center 
-                     text-[#171717] mt-auto text-4xl sm:text-6xl md:text-8xl lg:text-10xl xl:text-[15.625rem] leading-none"
+            className="font-extrabold tracking-tighter text-center h-full
+                     text-[#171717] text-4xl sm:text-6xl md:text-8xl lg:text-10xl xl:text-[15.625rem] leading-none"
             style={{ opacity: titleOpacity, scale: titleScale, y: titleY }}
           >
             ALYAN HANIF
           </motion.h1>
         </div>
 
-        <div className="w-full flex-1 flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 px-4 sm:px-6 md:px-8 py-8 lg:py-0">
+        <div className="w-full h-[40%] flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 px-4 sm:px-6 md:px-8 py-8 lg:py-0">
           {/* Left Section - Text and Button */}
           <div className="w-full lg:w-1/3 h-full flex flex-col items-start lg:items-start justify-center space-y-4 lg:space-y-6 order-2 lg:order-1">
             {/* Arrow Icon */}
@@ -99,7 +99,7 @@ export default function Hero() {
           </div>
 
           {/* Right Section - Availability Info */}
-          <div className="w-full lg:w-1/3 h-full flex flex-col items-center lg:items-end justify-center lg:justify-end p-4 sm:p-8 lg:p-20 order-3 lg:order-3">
+          <div className="w-full lg:w-1/3 h-full flex flex-col lg:items-end justify-center lg:justify-end p-4 sm:p-8 lg:p-20 order-3 lg:order-3">
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
